@@ -1,7 +1,7 @@
  const Header = (props) => {
    
     return (
-        <h2>{props.title}</h2>
+        <h2>{"From Header"}</h2>
     )
 }
 
