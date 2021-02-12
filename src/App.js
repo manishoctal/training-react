@@ -6,6 +6,7 @@ import Content from "./components/Content";
 import Footer from "./components/Footer";
 import NavBar from "./navbar";
 import Posts from "./components/Posts";
+import Main from "./components/DemoContexts/Main";
 import axios from 'axios';
 const url = "https://jsonplaceholder.typicode.com/posts";
 const App = () => {
@@ -46,6 +47,9 @@ const App = () => {
             </Route>
             <Route path="/footer">
               <Footer />
+            </Route>
+            <Route path="/context-api">
+              <Main />
             </Route>
           </Switch>
         </BrowserRouter>
